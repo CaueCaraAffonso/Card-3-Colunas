@@ -1,0 +1,152 @@
+
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+/* Fontes */
+
+body {
+    margin: 270px;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    /* padding: 50px; */
+    border-radius: 12px;
+}
+
+
+.box1{
+    background-color: #e38826;
+    width: 25%;
+    height: 500px;
+    padding: 50px;
+    border-radius: 12px 0 0 12px;
+}
+
+.box2 {
+    background-color: #006970;
+    width: 25%;
+    height: 500px;
+    padding: 50px;
+}
+
+.box3 {
+    background-color: #004241;
+    width: 25%;
+    height: 500px;
+    padding: 50px;
+    border-radius:  0 12px  12px 0 ;
+}
+p {
+    color: #f2efe4;
+    padding: 5% 0 30% 0;
+    font-size: 120%;
+}
+
+h1 {    
+    font-family: 'Bebas Neue', cursive;
+    color: #f2efe4;
+    font-size: 300%;
+
+}
+
+p {
+    font-family: 'Fredoka', sans-serif;
+    padding-right: 20%;
+}
+
+button {
+    width: 46%; height: 12%;
+    margin-right: 15%;
+    border-radius: 30px;
+    color: #e69134;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 125%;
+    border:#e69134 ;
+    margin-top: -20px;
+    transition: 0.8s;
+}
+
+button:hover {
+transition: 0.3s;
+cursor: pointer;
+border-width: #f9f9f9 3px;
+background-color: rgba(255, 0, 0, 0);
+color: #f2efe4 ;
+}
+
+/* Eu fiz tudo certinho, na hora de fazer as telas mobiles, começou a mudar totalmente o Padrão de tamanho de todos os tamanhos, não consegui consertar. */
+
+/* Tentei fazer a borda branca no botão, após passar o mouse por cima, mas também não consegui fazer. */
+
+
+
+
+
+
+
+
+/* Desse tamanho ficou bonitinho e tals, mas na tela de computador 1200px, ele continuava com a configuração de 300px, e não consegui mudar. */
+
+
+/* @media (min-width: 300px)  {
+    .box{
+        width: 200px;
+        height: 500px;
+        padding: 50px;
+
+    }
+    
+    body {
+        margin: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        
+    }
+
+    button {
+        width: 140px; height: 57px;
+    }
+    body {
+    background-color: rgb(238, 164, 164);
+         }
+} */
+
+/* @media (min-width: 576px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+    .box{
+        width: 490px;
+        height: 900px;
+        padding: 50px;
+
+    }
+
+    button {
+        width: 46%; height: 12%;
+    }
+
+    body {
+        background-color: #ffd970;
+        margin-left: 120px;
+    }
+}
+
+
+
+@media(min-width: 1200px) {
+
+    
+    
+    body {
+        background-color: #ff4141;
+    }
+} */
